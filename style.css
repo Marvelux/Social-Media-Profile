@@ -11,7 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;  
+    margin: 0;
+    max-height: 100%; 
 }
 
 .container {
@@ -79,7 +80,7 @@ body {
     background-color:  #7daa00;
     transform: scale(1.1) rotate(2deg);
 }
-@media screen and (min-width: 375px) and (max-width: 1400px) {
+@media screen and (min-width: 767px) and (max-width: 1400px) {
     
 }
 
